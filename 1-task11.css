@@ -54,7 +54,251 @@ header ul li:after{
     display: inline-block;
     vertical-align: middle;
 }
-.pic img{
+#pic{
     width:100%;
 }
-
+#pic img{
+    width:100%;
+}
+#item1{
+    width:90%;
+    margin:0 auto;
+    border-bottom: 3px solid #aaaaaa;
+    font-size: 0;
+}
+#item1 ul li{
+    display: inline-block;
+    width: 20%;
+    font-size: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+#item1 ul li figure{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 25%;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    background-color: #00c7d6;
+}
+#item1 ul li img{
+    margin-top:2rem;
+    display: inline-block;
+    vertical-align: middle;
+    width:50%;
+}
+#item2{
+    width:100%;
+    margin:1rem auto;
+    border-bottom: 50px solid gainsboro;
+}
+#item2 ul li{
+    display:inline-block;
+    margin: 20px;
+    text-align: center;
+    width:30%;
+}
+#item2 ul li + li{
+    border-left: 3px solid gray;
+}
+#main1 header{
+    background-color: white;
+    margin: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 5rem;
+    border-bottom: 1px solid gainsboro;
+}
+#content1{
+    width:100%;
+}
+#content11{
+    padding: 20px;
+}
+#content11 ul li,#content11 img{
+    vertical-align: top;
+    display: inline-block;
+    height: 218px;
+    overflow: hidden;
+}
+#content11 img{
+    width:20%;
+}
+#content11 ul {
+    width:75%;
+    float: right;
+}
+#content11 ul li{
+    width: 41.1%;
+    height:44%;
+    margin-left: 3.05rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: #eee;
+    font-size: 3rem;
+    text-align: center;
+}
+#content12{
+    padding: 20px;
+}
+#content12 ul li,#content12 img{
+    vertical-align: top;
+    display: inline-block;
+    height: 218px;
+    overflow: hidden;
+}
+#content12 img{
+    width:20%;
+}
+#content12 ul {
+    width:75%;
+    float: right;
+}
+#content12 ul li{
+    width: 41.1%;
+    height:44%;
+    margin-left: 3.05rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: #eee;
+    font-size: 3rem;
+    text-align: center;
+}
+#main2 header{
+    background-color: white;
+    margin: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 5rem;
+    border-bottom: 1px solid gainsboro;
+}
+#content2{
+    width:100%;
+}
+#content21{
+     padding: 20px;
+ }
+#content21 ul li,#content21 img{
+    vertical-align: top;
+    display: inline-block;
+    height: 218px;
+    overflow: hidden;
+}
+#content21 img{
+    width:20%;
+}
+#content21 ul {
+    width:75%;
+    float: right;
+}
+#content21 ul li{
+    width: 41.1%;
+    height:44%;
+    margin-left: 3.05rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: #eee;
+    font-size: 3rem;
+    text-align: center;
+}
+#content22{
+    padding: 20px;
+}
+#content22 ul li,#content22 img{
+    vertical-align: top;
+    display: inline-block;
+    height: 218px;
+    overflow: hidden;
+}
+#content22 img{
+    width:20%;
+}
+#content22 ul {
+    width:75%;
+    float: right;
+}
+#content22 ul li{
+    width: 41.1%;
+    height:44%;
+    margin-left: 3.05rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: #eee;
+    font-size: 3rem;
+    text-align: center;
+}
+#main3{
+    border-top: 50px solid gainsboro;
+    padding: 20px;
+}
+#main3 img{
+    width:22%;
+    vertical-align: top;
+}
+#main3 section{
+    position: relative;
+    float:right;
+    width:75%;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 1rem;
+    display: inline-block;
+}
+#main3 section header{
+    font-size: 5rem;
+}
+#main3 section aside{
+    font-size: 3rem;
+    color: slategrey;
+    position: absolute;
+    margin-top: 100px;
+}
+#main4{
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+}
+#main4 img{
+    width:22%;
+    vertical-align: top;
+}
+#main4 section{
+    position: relative;
+    float:right;
+    width:75%;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 1rem;
+    display: inline-block;
+}
+#main4 section header{
+    font-size: 5rem;
+}
+#main4 section aside{
+    font-size: 3rem;
+    color: slategrey;
+    position: absolute;
+    margin-top: 100px;
+}
+#main5{
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+}
+#main5 header{
+    font-size: 5rem;
+    padding-bottom:30px;
+}
+#main5 li{
+    display: inline-block;
+    width:33%;
+}
+#main5 li img{
+    width:100%;
+}
+#main5 aside{
+    font-size: 3rem;
+    color: slategrey;
+    margin-top: 10px;
+}
